@@ -1,10 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     color: white;
     font-size: 32px;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -31,20 +30,12 @@ body {
     top: 55px;
     opacity: 0.4;
     padding: 5px;
-    -webkit-box-shadow: 0 0 2px #FF0000, 0 0 3px #0000FF;
     box-shadow: 0 0 2px #FF0000, 0 0 3px #0000FF;
 }
 
 .flex-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
 }
 
@@ -69,7 +60,6 @@ body {
 
 .bg-form form {
     background-color: #F4F4F4;
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
     width: 380px;
     border-radius: 3px;
@@ -83,14 +73,10 @@ body {
     height: 39px;
     font-size: 0.5em;
     border-radius: 3px;
-    -webkit-box-shadow: 1px 1.73px 0 #FFFFFF;
     box-shadow: 1px 1.73px 0 #FFFFFF;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
     background-image: linear-gradient(white, black);
     opacity: 0.38;
     border: 1px solid #C6C6C6;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin: 0px auto 15px auto;
 }
@@ -138,9 +124,7 @@ body {
     background-color: #93D02B;
     border: 1px solid #3A9A00;
     border-radius: 3px;
-    -webkit-box-shadow: 0.5px 0.87px 0 #FFFFFF;
     box-shadow: 0.5px 0.87px 0 #FFFFFF;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.36)), to(rgba(0, 0, 0, 0.36)));
     background-image: linear-gradient(rgba(255, 255, 255, 0.36), rgba(0, 0, 0, 0.36));
     text-shadow: 0.56px 0.83px 0 #51850E;
 }
@@ -151,9 +135,7 @@ body {
     background-color: #F8F8F8;
     border: 1px solid #C6C6C6;
     border-radius: 3px;
-    -webkit-box-shadow: 1px 1.73px 0 #FFF;
     box-shadow: 1px 1.73px 0 #FFF;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.36)), to(rgba(0, 0, 0, 0.36)));
     background-image: linear-gradient(rgba(255, 255, 255, 0.36), rgba(0, 0, 0, 0.36));
     font-size: 0.5em;
     padding: 10px;
@@ -165,14 +147,8 @@ body {
 }
 
 .remember {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: baseline;
     padding-top: 10px;
     margin-bottom: -10px;
@@ -190,4 +166,12 @@ body {
 .red-button input[type="submit"] {
     background-color: #F4495B;
     border: 1px solid #A2202A;
+}
+
+.logo-bottom img {
+    width: 353px;
+    height: 130px;
+    margin-top: 40px;
+    opacity: 0.4;
+    padding: 5px;
 }
