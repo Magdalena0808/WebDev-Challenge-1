@@ -14,7 +14,7 @@ body {
 
 .content {
     max-width: 1050px;
-    height: 1372px;
+    max-height: 1372px;
     background-image: url("img/bg.png");
     margin-left: auto;
     margin-right: auto;
@@ -39,15 +39,13 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-flow: column wrap;
-    flex-flow: column wrap;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
 }
 
 .box {
@@ -159,4 +157,37 @@ body {
     background-image: linear-gradient(rgba(255, 255, 255, 0.36), rgba(0, 0, 0, 0.36));
     font-size: 0.5em;
     padding: 10px;
+}
+
+.button2 input[type="submit"] {
+    width: 139px;
+    height: 41px;
+}
+
+.remember {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: baseline;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+
+.button3 input[type="submit"] {
+    font-size: 18px;
+}
+
+.button4 input[type="submit"] {
+    background-color: #BCDB97;
+    border: 1px solid #90CA6D;
+}
+
+.red-button input[type="submit"] {
+    background-color: #F4495B;
+    border: 1px solid #A2202A;
 }
